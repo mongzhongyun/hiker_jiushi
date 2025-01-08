@@ -42,7 +42,7 @@ var updateLog = {
 var version={
     author:"九石",
  ver:"5.4",
-requireId:"https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοooоοᴏοoοоοοοоoοoоᴏоοоооοᴏoᴏ",
+requireId:"https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/Btea.js",
 // requireIdo:"https://oooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоoᴏοоᴏᴏοоοoοоοοoоᴏоοоᴏоοоοοοᴏοooоᴏᴏοоοoοоoοοоᴏоoᴏоοoᴏoοοоοoοоᴏᴏοᴏοοoᴏοοoоᴏᴏοооoοоoοοооοοооᴏοоοοοᴏoоoоᴏᴏoоᴏοoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοoᴏοοᴏоοοooоοᴏοoοоοοοоoοoоᴏоοоооοᴏoᴏ",
  requirelId:"hiker://files/rules/91/Btea.js",
  update:'2024/11/20 08:10',
@@ -1018,11 +1018,11 @@ var 一级 = {
     //var 设置 = settingIcon !== 'off' ? '设置' : '';
     //var 收藏 = settingIcon !== 'off' ? '收藏' : '';
     var SYIcon=$.getImage("http://123.56.105.145/tubiao/more/47.png");
-    var PKIcon=$.getImage("https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏooοооᴏoоᴏоοᴏooοоᴏоοоοᴏ");
+    var PKIcon=$.getImage("https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/pk.png");
     var RBIcon=$.getImage("http://123.56.105.145/tubiao/more/74.png");
     var GXIcon=$.getImage("http://123.56.105.145/tubiao/more/157.png");
     var SSIcon=$.getImage("http://123.56.105.145/tubiao/more/168.png");
-    var SCIcon=$.getImage("https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏoᴏοоoᴏoоᴏоοоооοᴏooοоοᴏ");
+    var SCIcon=$.getImage("https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/sc.jpg");
     var SZIcon=$.getImage("http://123.56.105.145/tubiao/more/292.png");
     var LSIcon=$.getImage("http://123.56.105.145/tubiao/more/200.png");
     var ZJIcon=$.getImage("http://123.56.105.145/tubiao/more/326.png");
@@ -2089,11 +2089,11 @@ addListener('onClose', $.toString(()=>{
     let mnIcons4 = getItem('menuIcons4',getItem('gxid')=="on"?"更新":"收藏");    
     let mnIcons5 = getItem('menuIcons5',"设置");         
     var SYIcon=$.getImage("http://123.56.105.145/tubiao/more/47.png");
-    var PKIcon=$.getImage("https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏooοооᴏoоᴏоοᴏooοоᴏоοоοᴏ");
+    var PKIcon=$.getImage("https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/pk.png");
     var RBIcon=$.getImage("http://123.56.105.145/tubiao/more/74.png");
     var GXIcon=$.getImage("http://123.56.105.145/tubiao/more/157.png");
     var SSIcon=$.getImage("http://123.56.105.145/tubiao/more/168.png");
-    var SCIcon=$.getImage("https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏoᴏοоoᴏoоᴏоοоооοᴏooοоοᴏ");
+    var SCIcon=$.getImage("https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/sc.jpg");
     var SZIcon=$.getImage("http://123.56.105.145/tubiao/more/292.png");
     var LSIcon=$.getImage("http://123.56.105.145/tubiao/more/200.png");
     var ZJIcon=$.getImage("http://123.56.105.145/tubiao/more/326.png");
@@ -2620,7 +2620,7 @@ d.push({
 
 function 动态分类(d) {
     const empty = "hiker://empty";
-    var 净化 = ':not(:matches(首|表|更|榜|APP|留|福|回|理|成|妹|写真|吃瓜))';
+    var 净化 = ':not(:matches(首|表|更|榜|APP|留|福|回))';
     try {
         var categories = pdfa(html, 大类列表).concat(pdfa(html, 拼接列表));
     } catch (e) {
