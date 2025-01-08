@@ -42,7 +42,7 @@
     var version={
         author:"九石",
     ver:"5.4",
-    requireId:"https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοooоοᴏοoοоοοοоoοoоᴏоοоооοᴏoᴏ",
+    requireId:"https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/Btea.js",
     // requireIdo:"https://oooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоoᴏοоᴏᴏοоοoοоοοoоᴏоοоᴏоοоοοοᴏοooоᴏᴏοоοoοоoοοоᴏоoᴏоοoᴏoοοоοoοоᴏᴏοᴏοοoᴏοοoоᴏᴏοооoοоoοοооοοооᴏοоοοοᴏoоoоᴏᴏoоᴏοoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοoᴏοοᴏоοοooоοᴏοoοоοοοоoοoоᴏоοоооοᴏoᴏ",
     requirelId:"hiker://files/rules/91/Btea.js",
     update:'2024/11/17 08:10',
@@ -1022,11 +1022,11 @@
         //var 收藏 = settingIcon !== 'off' ? '收藏' : '';
         var menuIcons = { 
             "首页": 首页 ? { img: "https://hikerfans.com/tubiao/more/47.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '首页'); updateItem("navtitle", { title: '首页' }); refreshPage(false); return "hiker://empty"; }), } : '',
-            "片库": 片库 ? { img: "https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏooοооᴏoоᴏоοᴏooοоᴏоοоοᴏ", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '片库'); updateItem("navtitle", { title: '片库' }); refreshPage(false); return "hiker://empty"; }), } : '',
+            "片库": 片库 ? { img: "https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/pk.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '片库'); updateItem("navtitle", { title: '片库' }); refreshPage(false); return "hiker://empty"; }), } : '',
             "热榜": 热榜 ? { img: "https://hikerfans.com/tubiao/more/74.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '热榜'); updateItem("navtitle", { title: '热榜' }); refreshPage(false); return "hiker://empty"; }), } : '',
             "更新": 更新 ? { img: "https://hikerfans.com/tubiao/more/157.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '更新'); updateItem("navtitle", { title: '更新' }); refreshPage(false); return "hiker://empty"; }), } : '',
             "搜索": 搜索 ? { img: "https://hikerfans.com/tubiao/more/168.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '搜索'); updateItem("navtitle", { title: '搜索' }); refreshPage(false); return "hiker://empty"; }), } : '',
-            "收藏": { img: "https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏoᴏοоoᴏoоᴏоοоооοᴏooοоοᴏ", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '收藏'); updateItem("navtitle", { title: '搜索' }); refreshPage(false); return "hiker://empty"; }), },
+            "收藏": { img: "https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/sc.jpg", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '收藏'); updateItem("navtitle", { title: '搜索' }); refreshPage(false); return "hiker://empty"; }), },
             "设置": { img: "https://hikerfans.com/tubiao/more/292.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '设置'); updateItem("navtitle", { title: '设置' }); refreshPage(false); return "hiker://empty"; }), },
             "历史": { img: "https://hikerfans.com/tubiao/more/200.png", url: "hiker://history?rule=" + MY_RULE.title },
             "最近": { img: "https://hikerfans.com/tubiao/more/326.png", url:$('#noLoading#').lazyRule(() => {  let rules = getLastRules(20); let sel_rules = rules.map(it => it.title); return $(sel_rules, 2, '请选一个最近使用的小程序').select(() => { return "hiker://home@" + input })  }), } 
@@ -2092,11 +2092,11 @@ try{
         let mnIcons5 = getItem('menuIcons5',"设置");         
         var menuIcons = { 
             "首页": getItem('syid') ? { img: "https://hikerfans.com/tubiao/more/47.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '首页'); updateItem("navtitle", { title: '首页' }); refreshPage(false); return "hiker://empty"; }), } : '',
-            "片库": getItem('pkid') ? { img: "https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏooοооᴏoоᴏоοᴏooοоᴏоοоοᴏ", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '片库'); updateItem("navtitle", { title: '片库' }); refreshPage(false); return "hiker://empty"; }), } : '',
+            "片库": getItem('pkid') ? { img: "https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/pk.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '片库'); updateItem("navtitle", { title: '片库' }); refreshPage(false); return "hiker://empty"; }), } : '',
             "热榜": getItem('rbid') ? { img: "https://hikerfans.com/tubiao/more/74.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '热榜'); updateItem("navtitle", { title: '热榜' }); refreshPage(false); return "hiker://empty"; }), } : '',
             "更新": getItem('gxid') ? { img: "https://hikerfans.com/tubiao/more/157.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '更新'); updateItem("navtitle", { title: '更新' }); refreshPage(false); return "hiker://empty"; }), } : '',
             "搜索": getItem('ssid') ? { img: "https://hikerfans.com/tubiao/more/168.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '搜索'); updateItem("navtitle", { title: '搜索' }); refreshPage(false); return "hiker://empty"; }), } : '',
-            "收藏": { img: "https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоοᴏοооοοᴏοoοоοοοоοοoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооᴏoоᴏᴏοоoоοᴏοoοоοοοоoοοооoοооοοооᴏοоοοοᴏoоoоᴏᴏοᴏoоοоoοοᴏοᴏoоᴏᴏοоᴏοοоoοοᴏoᴏοᴏοoοоοοοᴏoоoоᴏᴏοᴏoᴏοоoᴏoоᴏоοоооοᴏooοоοᴏ", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '收藏'); updateItem("navtitle", { title: '搜索' }); refreshPage(false); return "hiker://empty"; }), },
+            "收藏": { img: "https://github.moeyy.xyz/https://github.com/mongzhongyun/hiker_jiushi/blob/main/sc.jpg", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '收藏'); updateItem("navtitle", { title: '搜索' }); refreshPage(false); return "hiker://empty"; }), },
             "设置": { img: "https://hikerfans.com/tubiao/more/292.png", url: $("#noLoading#").lazyRule(() => { storage0.setItem("navtitle", '设置'); updateItem("navtitle", { title: '设置' }); refreshPage(false); return "hiker://empty"; }), },
             "历史": { img: "https://hikerfans.com/tubiao/more/200.png", url: "hiker://history?rule=" + MY_RULE.title },
             "最近": { img: "https://hikerfans.com/tubiao/more/326.png", url: $("hiker://empty#noRecordHistory##noHistory#").rule(() => { return $('#noLoading#').lazyRule((title) => { let rules = getLastRules(20); let sel_rules = rules.map(it => it.title); return $(sel_rules, 2, '请选一个最近使用的小程序').select((title) => { return "hiker://home@" + input }, title) }) }), } 
@@ -2571,7 +2571,7 @@ try{
 
 function 动态分类(d) {
     const empty = "hiker://empty";
-    var 净化 = ':not(:matches(首|表|更|榜|APP|留|福|回|理|成|妹|写真|吃瓜))';
+    var 净化 = ':not(:matches(首|表|更|榜|APP|留|福|回|))';
     try {
         var categories = pdfa(html, 大类列表).concat(pdfa(html, 拼接列表));
     } catch (e) {
