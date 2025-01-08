@@ -1,0 +1,73 @@
+<h4>模板简要使用说明</h4><br>
+
+如需交流 欢迎加QQ群234706629，加群密码：九十一石五斗<br>
+
+一级模板，参照了道长dr的写法下面以555电影为例。<br>
+
+require(config.Btea);<br>
+let 首页='https://www.555dy.vip';<br>
+
+let ck_id='cookie.555dy';<br>
+let cookie=获取ck(ck_id);<br>
+//log('Cookie:'+cookie);<br>
+putMyVar('cookie',cookie);<br>
+//非必要，可以照写，网站需要验证就会用到<br>
+
+var 
+parStr=".module-items&&.module-item;a&&title;img||.lazy&&data-src||data-original;.module-item-text||.module-item-note&&Text;a&&href";<br>
+//与dr的写法一样<br>
+
+var week=
+".module-tab-week&&.module-tab-item;.module-main,#id&&.module-poster-item";<br>
+//追剧周表的写法: 周表的定位;星期的定位(星期的定位中把数字变成#id即可，默认是0-6）<br>
+
+var 折叠="本月热播电影;.module,1&&.module-poster-item;本周最佳电影;.module,2&&.module-poster-item";<br>
+//折叠的写法:名称;定位;名称;定位;名称;定位，最多可以写三个<br>
+var 推荐1="本周热播动漫;https://www.555dy.vip/vodshow/4--time---------.html;.module,9&&.module-poster-item;3;0";<br>
+//推荐的写法是 名称;网址;定位;两个数字(数字是片库的定位:第一个数字1是大类定位第二个,第二个数字0是拼接定位第一个)，最多可以写七个<br>
+
+var 推荐2="本周热门电影;https://www.555dy.vip/vodshow/1--time---------.html;.module,2&&.module-poster-item;1;0";<br>
+var 推荐3="...";<br>
+var 推荐4="...";<br>
+var 推荐5="...";<br>
+var 推荐7="...";<br>
+//片库写法是:网址;两个数字(数字定位同上)
+var page = MY_PAGE;<br>
+var 分类颜色=取随机颜色();<br>
+const 大类定位 = 'body&&.swiper-wrapper';<br>
+const 拼接分类 = 'body&&.scroll-content';<br>
+const 小类定位 = 'body&&a:not(:matches(首|表|更|榜|APP|留|福|回))';<br>
+const 拼接定位 = 'body&&a';<br>
+const 分类标题 = 'a&&Text';<br>
+const 分类链接 = 'a&&href';<br>
+MY_URL=片库.split(";")[0];<br>
+var true_url = getMyVar('header.url', MY_URL);<br>
+//log(getMyVar("header.url"));<br>
+true_url = true_url.replace(/vodtype(\/\d+).*/, 'vodshow$1--time---------.html').replace('---.html', page + '---.html').replace(/(---\d+.html)/, page + '$1').replace('netflix.html', 'netflix/page/'+page + '.html')
+var html = request(true_url);<br>
+//动态分类的写法跟普通写法一样<br>
+
+
+var 热榜="https://www.555dy.vip/label/hot.html;body&&.module-heading-tab-link;span&&Text;span&&Text;p&&Text";<br>
+//热榜的写法是:热榜网址;大标题定位;大标题;小标题;小标题描述<br>
+var top=".module-main,#id&&.module-paper-item&&a;0;2;4;6";<br>
+//热榜定位的写法:定位;数字id<br>
+
+var 更新="https://www.555dy.vip/label/new.html;body&&.module-heading-tab-link;span&&Text;.swiper-slide,8&&a&&Text"<br>
+//更新的写法是:更新网址;大标题定位;大标题;更新数目定位<br>
+
+var new1=".module-main,0&&.module-items,0&&.module-poster-item;.module-poster-item-title&&Text;.module-item-note&&Text";<br>
+//更新1的写法是:更新1定位;标题;描述;图片<br>
+var new2=".module-main,1&&.module-items,0&&.module-items,0&&.module-card-item;.module-poster-item-title&&Text;.module-item-note&&Text";<br>
+
+搜索();<br>
+//定义搜索，不然报错<br>
+
+
+if(/电影/.test(html)){<br>
+一级.A(首页,片库,热榜,更新,搜索);<br>
+//可以通过修改传参来增减主菜单<br>
+}else{
+    //log(html);<br>
+  道长验证码(null,true_url,'',ck_id);
+}
